@@ -24,6 +24,7 @@ This project makes use of:
 
 	•	dbt (Data Build Tool) 🧰
 	•	SQL 💻
+	•	Github 🗂️
 	•	And of course, lots of data modeling knowledge 📊🔍
 
 ✨ Key Features
