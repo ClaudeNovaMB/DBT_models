@@ -34,9 +34,9 @@ This project makes use of:
 	•	Clarity: Each model includes a detailed explanation of its use case and logic.
 
 🚀 Get Started
-'''
+```
 git clone https://github.com/yourusername/dbt-models.git
-'''
+```
 
 If you’re ready to explore the world of dbt models, feel free to dive right in! You can browse the models in the models/ folder, where each one is documented and ready for exploration. 🔍
 
