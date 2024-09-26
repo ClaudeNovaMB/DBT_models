@@ -35,7 +35,7 @@ This project makes use of:
 
 🚀 Get Started
 ```
-git clone https://github.com/yourusername/dbt-models.git
+git clone https://github.com/ClaudeNovaMB/dbt-models.git
 ```
 
 If you’re ready to explore the world of dbt models, feel free to dive right in! You can browse the models in the models/ folder, where each one is documented and ready for exploration. 🔍
