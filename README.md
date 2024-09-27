@@ -25,6 +25,7 @@ This project makes use of:
 	•	dbt (Data Build Tool) 🧰
 	•	SQL 💻
 	•	Github 🗂️
+ 	•	TimeScaleDB 🛢️ (Time series db built on top of Postgres)
 	•	And of course, lots of data modeling knowledge 📊🔍
 
 ✨ Key Features
