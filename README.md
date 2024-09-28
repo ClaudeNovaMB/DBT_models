@@ -25,6 +25,7 @@ This project makes use of:
 	•	dbt (Data Build Tool) 🧰
 	•	SQL 💻
 	•	Github 🗂️
+ 	•	TimeScaleDB 🛢️ (Time series db built on top of Postgres)
 	•	And of course, lots of data modeling knowledge 📊🔍
 
 ✨ Key Features
@@ -37,6 +38,24 @@ This project makes use of:
 ```
 git clone https://github.com/ClaudeNovaMB/dbt-models.git
 ```
+Some troubleshooting I've encountered which may help
+Run these commands
+```
+pip install dbt-core
+pip install --upgrade dbt-core
+pip install --upgrade dbt-postgres
+# Optional if you're running all your code in a python virtual environment
+touch .gitignore
+#open this file and add your virtual environment name (Im on a mac)
+nano .gitignore
+#Paste your venv name in the file, save and exit
+git add .gitignore
+git commit -m "Add dbt-venv to .gitignore"
+#check your git status constantly as good practice :-)
+git status
+```
+This may sound like obvious advice but take a moment to read the output results from every command you run. 
+There is such great guidance which dbt, Timescales, github and postgres provide to follow post installation and next step processes.
 
 If you’re ready to explore the world of dbt models, feel free to dive right in! You can browse the models in the models/ folder, where each one is documented and ready for exploration. 🔍
 
