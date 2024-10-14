@@ -1,4 +1,0 @@
-name: 'DBT_models'
-version: '1.0'
-profile: 'default'
-model-paths: ["models"]
